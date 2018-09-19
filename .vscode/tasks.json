@@ -13,6 +13,28 @@
                 "kind": "build",
                 "isDefault": true
             }
+		},
+		{
+            "type": "typescript",
+            "tsconfig": "packages\\beedon-releaser\\tsconfig.json",
+            "problemMatcher": [
+                "$tsc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+		},
+		{
+            "type": "typescript",
+            "tsconfig": "packages\\beedon-git-read\\tsconfig.json",
+            "problemMatcher": [
+                "$tsc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
