@@ -7,7 +7,7 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Launch Template",
             "program": "${workspaceFolder}/packages/template/src/index.ts",
             "outFiles": ["${workspaceFolder}/packages/template/dist/**/*.js"]
         }
