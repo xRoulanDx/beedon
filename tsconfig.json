@@ -1,14 +1,12 @@
 {
     "compilerOptions": {
+		"watch": true,
         "target": "es5",
         "module": "commonjs",
         "sourceMap": true,
 		"baseUrl": "src",
-        "typeRoots": [
-			"node_modules/@types"
-		],
-	},
-	"exclude": [
-		"node_modules"
-	]
+		"lib": [
+			"es2017"
+		]
+	}
 }

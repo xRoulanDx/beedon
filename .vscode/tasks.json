@@ -10,16 +10,16 @@
                 "$tsc"
             ],
             "group": {
-                "kind": "build",
+				"kind": "build",
                 "isDefault": true
             }
 		},
 		{
-            "type": "typescript",
+			"type": "typescript",
             "tsconfig": "packages\\beedon-releaser\\tsconfig.json",
             "problemMatcher": [
                 "$tsc"
-            ],
+			],
             "group": {
                 "kind": "build",
                 "isDefault": true
