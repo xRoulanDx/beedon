@@ -7,9 +7,9 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Template",
-            "program": "${workspaceFolder}/packages/template/src/index.ts",
-            "outFiles": ["${workspaceFolder}/packages/template/dist/**/*.js"]
+            "name": "Launch Releaser",
+            "program": "${workspaceFolder}/packages/beedon-releaser/src/index.ts",
+            "outFiles": ["${workspaceFolder}/packages/beedon-releaser/**/*.js"]
         }
     ]
 }

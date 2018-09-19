@@ -1,5 +1,3 @@
-import {execFile} from 'child_process';
+import {getGitCommits} from 'beedon-git-read';
 
-export function getGitCommits(): string {
-	return 'lel';
-}
+console.log(getGitCommits());
