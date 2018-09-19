@@ -1,7 +1,3 @@
-dist
 node_modules
-
-# IDE - VSCode
-.vscode
-!.vscode/settings.json
-!.vscode/tasks.json
+**/*.js
+**/*.map
