@@ -1,0 +1,25 @@
+{
+    "printWidth": 90,
+    "tabWidth": 4,
+    "useTabs": true,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "bracketSpacing": false,
+    "arrowParens": "avoid",
+    "parser": "typescript",
+    "overrides": [
+        {
+            "files": "*.js",
+            "options": {
+                "parser": "babylon"
+            }
+        },
+        {
+            "files": "*.less",
+            "options": {
+                "parser": "less"
+            }
+        }
+    ]
+}
